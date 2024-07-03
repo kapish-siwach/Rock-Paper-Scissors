@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    height: 100vh;
+}
+.choice img{
+    width: 20vh;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    filter: drop-shadow(2px 3px 4px  #111);
+    cursor: pointer;
+}
+
+#message{
+    background-color: #070707;
+    border-radius: 20px;
+    color: white;
+}
